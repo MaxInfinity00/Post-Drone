@@ -1,0 +1,1 @@
+The animator component on the Drone Buds are mostly for show- but the *specific transition from being Hit back to Idle* is tweaked to look as good as it can. I'd recommend keeping that one thing. (In case you didn't know, yes, transitions have their own settings in the inspector)

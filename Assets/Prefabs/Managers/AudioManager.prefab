@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3665459804067648357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8614326072860204386}
+  - component: {fileID: 6285863010008391029}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8614326072860204386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3665459804067648357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6285863010008391029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3665459804067648357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309f3d0643835b45b1ce4a8c1e762ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sounds:
+  - name: DroneHum
+    audioClip: {fileID: 8300000, guid: 13c49be41822ce546bc07dc220b566b0, type: 3}
+    volume: 0.09
+    pitch: 1.52
+    audioSource: {fileID: 0}
+    loop: 1
+  - name: DroneDrive
+    audioClip: {fileID: 8300000, guid: bc62847945960604a822a3f0e0a16396, type: 3}
+    volume: 0.277
+    pitch: 1.51
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: Pickup
+    audioClip: {fileID: 8300000, guid: 22c26563f9af8b54981b63666bb97799, type: 3}
+    volume: 0.5
+    pitch: 0.86
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: DropSound
+    audioClip: {fileID: 8300000, guid: 1bf76d97203996149bc3694ad12d2520, type: 3}
+    volume: 0.5
+    pitch: 2
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: Fart
+    audioClip: {fileID: 8300000, guid: 0017f498ade882e4db6d5de328d97f59, type: 3}
+    volume: 0.5
+    pitch: 2
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: HitWall
+    audioClip: {fileID: 8300000, guid: 0db4c73713c90524b9b21eba24bc4c2b, type: 3}
+    volume: 0.5
+    pitch: 2
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: Boost
+    audioClip: {fileID: 8300000, guid: 02da4a83b3e0ff84198d18acd1909a15, type: 3}
+    volume: 0.1
+    pitch: 2
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: TimePickup
+    audioClip: {fileID: 8300000, guid: 40010df8a5cf0f748bb65997fa30d794, type: 3}
+    volume: 0.95
+    pitch: 3
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: BadHit
+    audioClip: {fileID: 8300000, guid: 47a7a5dab96cdcf4fbc82a0b793c09d7, type: 3}
+    volume: 0.675
+    pitch: 3
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: Win
+    audioClip: {fileID: 8300000, guid: d544bb1c22bfd5e4ca5afcc9d50d4e37, type: 3}
+    volume: 0.95
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: Lose
+    audioClip: {fileID: 8300000, guid: 65b94acb2036b4a44a9ef23aa018ba0c, type: 3}
+    volume: 0.95
+    pitch: 1
+    audioSource: {fileID: 0}
+    loop: 0
+  - name: BadHum
+    audioClip: {fileID: 8300000, guid: 9a7c1c3944b244a4c9fb95a944bb07e1, type: 3}
+    volume: 0.434
+    pitch: 2
+    audioSource: {fileID: 0}
+    loop: 1

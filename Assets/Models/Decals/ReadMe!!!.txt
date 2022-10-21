@@ -1,0 +1,2 @@
+Some of these models (antennae models especially) are not for use directly- Look for anything you want to use within the prefabs folder : ) <3
+Anything not already "prefab'd" there should be fine to use from here I presume.
